@@ -68,3 +68,10 @@ With the visualization feature:
 .. code-block:: console
 
     $ pip install tinyik[viz]
+    
+If have an error like "module 'tinyik' has no attribute 'visualize' #12" :
+
+.. code-block:: console
+
+    $ pip install tinyik -U
+    $ pip install open3d
